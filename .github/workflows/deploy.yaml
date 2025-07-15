@@ -27,7 +27,7 @@ jobs:
       run: |
         docker buildx build -t httpd-image:latest .
         docker tag httpd-image:latest 187249972779.dkr.ecr.us-east-1.amazonaws.com/my-ecr-repo/httpd-image:latest
-        docker push 187249972779.dkr.ecr.us-east-1.amazonaws.com/my-ecr-repo/httpd-image:latest
+        docker push 187249972779.dkr.ecr.us-east-1.amazonaws.com/my-ecr-repo/httpd-image
 
     - name: Update kubeconfig
       run: |
