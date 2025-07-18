@@ -14,6 +14,7 @@ spec:
     spec:
       containers:
       - name: httpd
-        image: 187249972779.dkr.ecr.us-east-1.amazonaws.com/my-ecr-repo/httpd-image:latest
+        image: 187249972779.dkr.ecr.us-east-1.amazonaws.com/my-ecr-repo:latest
         ports:
         - containerPort: 80
+        
